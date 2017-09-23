@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DayOnePract2</string>
+    <string name="string_linearLayoutH">Hola, soy un Linear Layout Horizontal</string>
+</resources>

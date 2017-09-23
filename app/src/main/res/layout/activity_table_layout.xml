@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ezrodriguez.dayonepract2.TableLayout">
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:weightSum="3">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_column="1" android:textColor="@color/colorGray"
+            android:background="@color/colorWine"
+            android:text="1" android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_column="2"
+            android:background="@color/colorGray"
+            android:textColor="#000"
+            android:text="2" android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_column="3"
+            android:background="@color/colorBlueDark"
+            android:textColor="@color/colorGray"
+            android:text="3" android:gravity="center"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:weightSum="3" android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_column="1"
+            android:layout_span="2"
+            android:textColor="@color/colorGray"
+            android:background="@color/colorWine"
+            android:text="1" android:gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_column="2"
+            android:background="@color/colorBlueDark"
+            android:textColor="@color/colorGray"
+            android:text="2" android:gravity="center"/>
+
+    </TableRow>
+
+
+</TableLayout>
